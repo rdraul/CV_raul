@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #principal{
+            border: solid 1px #cccccc;
+            padding: 5px;
+            margin: 0 auto;
+            height: 80%;
+            max-width: 1200px;
+        }
+        fieldset{
+            margin-top: 50px;
+        }
+        legend{
+            border: solid 1px #000000;
+            padding: 5px;
+            font-weight: bold;
+            border-radius: 20px;
+            background: #cccccc;
+        }
+        #mifoto{
+            margin: 5px;
+            border: solid 4px #cccccc;
+        }
+        #nom{
+            display: flex;
+            font-weight: 100;
+            font-size: 20px;
+        }
+        #nom li{
+            margin-right: auto;
+        }
+        #fotos{
+            display: flex;
+        }
+        #fotos img{
+            width: 30%;
+            margin: 1.8%;
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <img src="img/yo.jpg" alt="mifoto" id="mifoto" width="100px" height="110px">
+        <h2>Raúl Ureña Molina</h2>
+        <p>Villa Olimpica Manzana M # 10B  /// Telefono:829-678-6138 /// Email: raulurena09@gmail.com</p>
+        <fieldset>
+            <legend> Formación Academica </legend>
+            <ul>
+                <li>Primaria: Colegio Padre Fortin(2004-2014)</li>
+                <li>Secundaria: Colegio De Estudios Generales y De Servicios(CEGES)</li>
+                <li>Educacion Superior: Ingenieria en Sitemas UTESA(7mo Ciclo)</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Experiencia Laboral</legend>
+            <ul>
+                <li>Profesor de Natación</li>
+                <li>Servicio al Cliente</li>
+                <li>Soporte Tecnico</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Peliculas Favoritas</legend>
+            <ul id="nom">
+                <li>Fast and Furius 8</li>
+                <li>End Game</li>
+                <li>DeadPool</li>
+            </ul>
+            <div id="fotos">
+                <img src="img/fastfurius.jpg" alt="fastandfurius">
+                <img src="img/endgame.jpg" alt="endgame">
+                <img src="img/deadpool.jpg" alt="deadpool">
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
